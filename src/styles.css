@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+
+nav {
+  background: #5973f4;
+  height: 50px;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 40px;
+  box-sizing: border-box;
+}
+
+nav > img {
+  height: 80%;
+}
+
+nav > input {
+  width: 200px;
+  padding: 5px;
+}
+
+input::placeholder {
+  color: #5973f4;
+}
+
+.main-content {
+  text-align: left;
+  padding: 40px;
+  background: #f1f1f1;
+  height: 100%;
+}
+
+table {
+  width: 100%;
+  background: white;
+  border-collapse: collapse;
+}
+
+tr:not(:last-child) {
+  border-bottom: 1px solid #f1f1f1;
+}
+
+td,
+th {
+  padding: 10px 20px;
+}
+
+.bottom-logo-ctr {
+  padding: 40px 0;
+  text-align: center;
+}
